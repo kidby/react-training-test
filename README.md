@@ -77,6 +77,8 @@ react-training-test/
 ├── public/
 │   ├── favicon.ico
 │   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
 │   ├── manifest.json
 │   └── robots.txt
 │
@@ -105,7 +107,6 @@ react-training-test/
 │   │   └── Results.jsx, Results.test.js
 │   │
 │   ├── features/
-│   │   ├── index.js
 │   │   └── questionSlice.js
 │   │
 │   ├── hooks/
@@ -128,8 +129,6 @@ react-training-test/
 ├── .nvmrc
 ├── jest.config.js
 ├── package.json
-├── npm-lock.yaml
-├── npm-workspace.yaml
 └── README.md
 
 ```
