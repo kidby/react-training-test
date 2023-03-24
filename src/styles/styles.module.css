@@ -1,0 +1,55 @@
+.questionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 90%;
+}
+
+.questionText {
+    color: #333;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionButton {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.optionButton:hover {
+    background-color: #3b78c7;
+}
+
+.answerText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .questionContainer {
+        max-width: 50%;
+    }
+}

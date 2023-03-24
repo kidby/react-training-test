@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "path": "/",
+    "question": "What's your favorite type of weather?",
+    "options": [
+      { "label": "Sunny", "value": "sunny", "nextQuestion": "/question2" },
+      { "label": "Rainy", "value": "rainy", "nextQuestion": "/question3" },
+      { "label": "Snowy", "value": "snowy", "nextQuestion": "/question4" }
+    ]
+  },
+  {
+    "id": 2,
+    "path": "/question2",
+    "question": "What outdoor activity do you enjoy the most?",
+    "options": [
+      { "label": "Hiking", "value": "hiking" },
+      { "label": "Swimming", "value": "swimming" },
+      { "label": "Sunbathing", "value": "sunbathing" }
+    ]
+  },
+  {
+    "id": 3,
+    "path": "/question3",
+    "question": "What indoor activity do you prefer during a rainy day?",
+    "options": [
+      { "label": "Reading a book", "value": "reading" },
+      { "label": "Watching a movie", "value": "movie" },
+      { "label": "Playing board games", "value": "board_games" }
+    ]
+  },
+  {
+    "id": 4,
+    "path": "/question4",
+    "question": "What's your favorite winter sport?",
+    "options": [
+      { "label": "Skiing", "value": "skiing" },
+      { "label": "Snowboarding", "value": "snowboarding" },
+      { "label": "Ice skating", "value": "ice_skating" }
+    ]
+  }
+]
