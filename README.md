@@ -1,17 +1,19 @@
 ## React Training Test
 
 React Training Test is a web application built with React that does the following:
-presents a user with an option, then the user is given another question. When the user picks an option from the question, they are shown another question with more options. This is repeated until the final option is selected, then an answer (the last selected option) is displayed.
+  - Presents a user with a question and options
+  - When the user picks an option from the question, they are shown another question with more options
+  - This is repeated until the final option is selected
+  - Then the answer (the last selected option) is displayed
 
 ### Technologies used
 
 - Create React App
-- npm - package manager
 - Redux - state management
 - React Router - navigation
 - CSS Modules - styling
 - Jest & Testing Library - tests
-- Express - API Server
+- Express - Server
 - Ajv - Data validation
 
 ## Installation
