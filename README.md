@@ -70,7 +70,7 @@ The application should now be running on `http://localhost:3000`.
 
 #### Dependency Map
 
-<img src="./dependencies.svg">
+<img src="./dependencies.svg" alt="map of dependencies">
 
 #### Directory Structure
 
