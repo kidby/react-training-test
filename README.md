@@ -105,6 +105,7 @@ react-training-test/
 │   │   ├── Error.jsx, Error.test.js
 │   │   ├── ErrorBoundary.jsx
 │   │   ├── Loading.jsx, Loading.test.js
+│   │   ├── NotFound.jsx
 │   │   ├── Question.jsx, Question.test.js
 │   │   └── Results.jsx, Results.test.js
 │   │
