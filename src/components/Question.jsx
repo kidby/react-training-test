@@ -44,7 +44,7 @@ function Question({ question, options, index }) {
                       className={styles.optionButton}
                       onClick={() => handleOptionClick(nextQuestion, { label, value })}
                       aria-label={`Choose ${label}`}
-          >
+                  >
                       {label}
                   </button>
         ))}
