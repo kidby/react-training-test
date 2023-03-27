@@ -16,7 +16,7 @@ function Results() {
       <div className={styles.questionContainer}>
           <h2>Your answer:</h2>
           <span className={styles.answerText} aria-labelledby="answer-label">
-              {lastAnswer.label}
+              {lastAnswer ? lastAnswer.label : navigate('/')}
           </span>
           <button
               className={styles.optionButton}
